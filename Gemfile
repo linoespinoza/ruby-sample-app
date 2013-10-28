@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
 gem 'bootstrap-sass', '2.3.2'
+gem 'bcrypt-ruby', '3.0.1'
 # gem 'pg', '0.12.2'
 
 # Bundle edge Rails instead:
@@ -10,6 +11,7 @@ gem 'bootstrap-sass', '2.3.2'
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.9.0'
+  gem 'annotate', '~> 2.4.1.beta'
   gem 'guard-rspec', '0.5.5'
   gem 'growl'
 end
